@@ -1,9 +1,9 @@
-function utcToTimeZone(
+const utcToTimeZone = (
   utcDateString,
   timeZone = 'Asia/Kolkata',
   locale = 'en-CA',
   isISOFormat = false,
-) {
+) => {
   if (utcDateString == null || utcDateString === undefined) return utcDateString;
   let utcDate = utcDateString;
   if (!(utcDate instanceof Date)) utcDate = new Date(utcDateString);
@@ -30,3 +30,5 @@ function utcToTimeZone(
   }
   return formatter.format(utcDate);
 }
+
+module.exports = utcToTimeZone;
