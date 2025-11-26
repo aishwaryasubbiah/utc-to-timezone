@@ -1,0 +1,17 @@
+{
+  "name": "utc-to-timezone",
+  "version": "1.0.0",
+  "description": "Converts the given UTC time to the given timezone ",
+  "license": "MIT",
+  "author": "Aishwarya Subbiah",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aishwaryasubbiah/utc-to-timezone.git"
+  },
+  "homepage": "https://github.com/aishwaryasubbiah/utc-to-timezone#readme"
+}
