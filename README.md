@@ -45,9 +45,12 @@ console.log(utcToTimeZone('2025-11-26T12:00:00.000Z', 'Asia/Kolkata', 'en-IN', f
 
 # 🛠 Parameters:
 
-Param 1: UTC date either in string or Date format. \n
-Param 2: Target timezone (default is 'Asia/Kolkata') \n
-Param 3: Locale for formatting (default is 'en-CA') \n
+Param 1: UTC date either in string or Date format.
+
+Param 2: Target timezone (default is 'Asia/Kolkata')
+
+Param 3: Locale for formatting (default is 'en-CA')
+
 Param 4: Boolean to determine if output should be in ISO format (default is false)
 
 
